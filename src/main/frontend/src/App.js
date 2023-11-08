@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
+import { Route } from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
         {message}
+        <a href="/link">link</a>
     </div>
   );
 }
