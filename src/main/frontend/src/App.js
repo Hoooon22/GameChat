@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import { Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+
+import { Main } from "./pages/";
 
 function App() {
     const [message, setMessage] = useState([]);
@@ -15,10 +17,13 @@ function App() {
     }, []);
 
   return (
-    <div className="App">
-        {message}
-        <a href="/link">link</a>
-    </div>
+    <Router>
+        <div className="App">
+            <Routes>
+                <Route path="/" element={<Main />} />
+            </Routes>
+        </div>
+    </Router>
   );
 }
 
