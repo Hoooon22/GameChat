@@ -12,7 +12,7 @@ function App() {
             .then((data) => {
                 setMessage(data);
             });
-    });
+    }, []);
 
   return (
     <div className="App">
