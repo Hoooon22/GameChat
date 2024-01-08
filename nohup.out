@@ -1,0 +1,34 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2024-01-08T22:10:18.215+09:00  INFO 64894 --- [           main] c.hoooon22.gamechat.GameChatApplication  : Starting GameChatApplication v0.0.1-SNAPSHOT using Java 17.0.5 with PID 64894 (/Users/kimjihoon/Desktop/GameChat/build/libs/GameChat-0.0.1-SNAPSHOT.jar started by kimjihoon in /Users/kimjihoon/Desktop/GameChat)
+2024-01-08T22:10:18.218+09:00  INFO 64894 --- [           main] c.hoooon22.gamechat.GameChatApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-01-08T22:10:18.683+09:00  INFO 64894 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-08T22:10:18.689+09:00  INFO 64894 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-08T22:10:18.689+09:00  INFO 64894 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-01-08T22:10:18.731+09:00  INFO 64894 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-08T22:10:18.731+09:00  INFO 64894 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 488 ms
+2024-01-08T22:10:18.830+09:00  INFO 64894 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-01-08T22:10:18.890+09:00  INFO 64894 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-08T22:10:18.899+09:00  INFO 64894 --- [           main] c.hoooon22.gamechat.GameChatApplication  : Started GameChatApplication in 0.887 seconds (process running for 1.145)
+2024-01-08T22:11:18.635+09:00  INFO 64894 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-08T22:11:18.635+09:00  INFO 64894 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-08T22:11:18.636+09:00  INFO 64894 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
+React Connect
