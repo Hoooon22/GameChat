@@ -4,7 +4,7 @@ function Room() {
 
     return (
       <div>
-        
+        This way~
       </div>  
     );
 }

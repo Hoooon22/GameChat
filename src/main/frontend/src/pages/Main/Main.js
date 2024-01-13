@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 function Main() {
     const [message, setMessage] = useState("");
+
     useEffect(() => {
         fetch('/api/time/getNow')
         .then(response => response.text())
@@ -13,8 +14,8 @@ function Main() {
     return (
         <div>
             <p>Hi, WelCome to GameChat!</p>
-            <h2> {message} </h2>
-            <a href="{() => false}">Move to Link</a>
+            <h2>{message}</h2>
+            <a href="/room">Move to Link</a>
         </div>
     );
 }
